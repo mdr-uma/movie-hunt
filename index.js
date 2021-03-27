@@ -5,8 +5,6 @@ const fetchData = async searchTerm => {
             s: searchTerm
         }
     })
-    console.log(response.data);
-
+    return response.data.Search
 }
 
-fetchData()
