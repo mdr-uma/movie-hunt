@@ -72,5 +72,5 @@ const onMovieSelect = async movie => {
         }
     })
 
-    console.log(response.data);
+    return response.data
 }
